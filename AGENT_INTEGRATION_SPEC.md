@@ -2,7 +2,7 @@
 **Hub Host:** Apple Silicon M4 Mac Mini (macOS)  
 **Host LAN IP:** `http://192.168.0.32:8000` (Use for Synology & network spokes)  
 **Host Loopback:** `http://127.0.0.1:8000` (Use for Nguyen AI on the same Mac)  
-**Intranet Domain:** `https://kbn1.ddns.net` (Entra ID Authenticated Upstream)  
+**Intranet Domain:** `https://kbn1.com` (Entra ID Authenticated Upstream)  
 
 ---
 
@@ -12,7 +12,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | **Nguyen AI** (Same Mac) | `http://127.0.0.1:8000` | `8000` | HTTP / Loopback | None (Open) |
 | **Synology Containers** (Plex, Postgres, HA) | `http://192.168.0.32:8000` | `8000` | HTTP / LAN | None (Open) |
-| **External / Remote Intranet** | `https://kbn1.ddns.net` | `443` | HTTPS / Reverse Proxy | Entra ID Upstream |
+| **External / Remote Intranet** | `https://kbn1.com` | `443` | HTTPS / Reverse Proxy | Entra ID Upstream |
 
 ### API Endpoints Summary
 
